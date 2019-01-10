@@ -1,0 +1,45 @@
+body , body * {
+  
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+    .apology-block {
+
+        position: absolute;
+        margin-top: 10%;
+        width: 1000px;
+        margin-left: calc(( 100% - 1000px ) / 2);
+        height: 120px;
+
+
+
+    }
+
+    img {
+
+        position: relative;
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        
+
+    }   
+
+    h1 {
+        display: inline-block;
+        position: relative;
+        width: 800px;
+      
+    }
+
+    h2 {
+        display: inline-block;
+        position: relative;
+        width: 300px;
+        margin-left: calc(( 100% - 300px ) / 2);
+
+
+    }

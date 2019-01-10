@@ -1,0 +1,387 @@
+html {
+    font-size: 16px;
+}
+body , body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body > a {
+    position: absolute;
+}
+
+    .hero {
+        width: 100%;
+        min-height: 100vh;
+        background-image: url(../img/1.PNG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: inline-block;  
+        position: relative;
+    }
+
+
+        .hero-content {
+            position: absolute;
+            margin-left: calc( 50% - 400px ); /* centravimas */
+            width: 800px;
+            min-height: 100vh;
+            text-align: center;
+            color: rgb(17, 17, 17);
+            font-family: 'Lato', sans-serif;
+            float: left;
+            top: 10%;
+        }
+
+            .hero-content > h1 {
+                color: white;
+                
+        } 
+
+            .hero-content > p {
+                color: white;
+                margin-top: 50px;
+                width: 100%;
+                display: inline-block;
+            }
+
+                .row {
+                    top:0;
+                    bottom: 0;
+                }
+
+        #timer {
+            width: 100%;
+            padding: 20px;
+            display: inline-block;
+            font-family: 'Lato', sans-serif;
+            font-size: 40px;
+            color: white;
+            margin-top: 50px;
+
+        }
+
+        #until {
+            width: 100%;
+            padding: 20px;
+            display: inline-block;
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 30px;
+
+        }
+
+        .hero-content > .form {
+            margin-top: 20px;
+        }
+        .hero-content > .form > p{
+            margin-top: 20px;
+            color: white;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .hero-content > .form input[type=text] {
+            border: 0;
+            border-bottom: 1px solid white;
+            background-color: transparent;
+            height: 30px;
+            color: white;
+        }
+        .hero-content > .form input::placeholder {
+            color: yellow;
+            font-size: 0.9rem;
+                }
+        ::placeholder {
+            color: white;
+        }
+
+
+        
+        .hero-content a {
+                background-color: red;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin-top: 35px;
+                margin-bottom: 35px;
+
+            }
+        .hero-content > .scrollDown1 {
+            position: relative;
+            display:block;
+            width: 300px;
+            height: 50px;
+            margin-left: calc(50% - 150px );
+            margin-top: 60px;;            
+            
+
+        }
+
+        .hero-content > .scrollDown1:before {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+            transform: rotate(-45deg);
+            color: red;
+        }
+
+    .content {
+        margin-bottom: 50px;
+    }
+    .content > .content-column {
+        width: calc(( 100% - 40px ) / 2);
+        margin-top: 35px;
+        margin-right: 10px;
+        padding: 10px;
+        display: inline-block;
+    }
+    .content > .content-column:nth-child(last) {
+        margin-right: 0px;
+    }
+        .content > .content-column > p {
+        margin-top: 20px; 
+    }
+        .content > .content-column > .p-bar {
+            margin-top: 20px;
+        }
+        .content > .content-column > .p-bar > .p-bar-1 {
+            height: 5px;
+            width: 100%;
+            background-color: lightgrey;
+            display: inline-block;
+            float:left;
+            margin: 10px;
+            border-radius: 25px;
+        }
+        
+
+        .content > .content-column > .p-bar > .p-bar-2 {
+            height: 5px;
+            width: 100%;
+            background-color: lightgrey;
+            display: inline-block;
+            float:left;
+            margin: 10px;
+            border-radius: 25px;
+
+        }
+        .content > .content-column > .p-bar > .p-bar-3 {
+            height: 5px;
+            width: 100%;
+            background-color: lightgrey;
+            display: inline-block;
+            float:left;
+            margin: 10px;
+            border-radius: 25px 25px;
+        }
+
+            #sp1 {
+                background-color: #002c81;
+                height: 100%;
+                width: 90%;
+                display: block;
+                animation: prog 3s linear;
+                float: left;
+                border-radius: 25px;
+
+            }
+            #sp2 {
+                background-color: #002c81;
+                height: 100%;
+                width: 86%;
+                display: block;
+                animation: prog 3s linear;
+                float: left;
+                border-radius: 25px;
+
+            }
+            #sp3 {
+                background-color: #002c81;
+                height: 100%;
+                width: 72%;
+                display: block;
+                animation: prog 3s linear;
+                float: left;
+                border-radius: 25px;
+            }
+
+            strong {
+                float:right;
+                margin: -20px;
+                bottom: 20px;
+            }
+
+
+
+            .content > .content-column > .form {
+                color: black;
+                display: inline-block;
+                background-color: transparent;
+                margin-top: 25px;
+                width: 100%;
+            }
+
+            .form > input {
+                margin-right: 10px;
+            }
+
+           .form > input[type=text],
+            .form > input[type=e-mail]
+            {
+                width: calc ((100% - 10px) / 2);
+                border-bottom: 1px grey solid;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+
+                ::placeholder {
+                    color: grey;
+                    font-size: 12px;
+                }
+
+                .form > textarea {
+                    margin-top: 20px;;
+                    width: 100%;
+                    border-bottom: 1px grey solid;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                }
+
+                .content-column > a {
+                    background-color: red;
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin-top: 35px;
+                    float: right;
+                }
+
+
+footer {
+    background-color: #002c81;
+    position: relative;
+}
+
+footer > .icons {
+    text-align: center;
+}
+
+footer > .icons > i {
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+footer > p {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 0.8rem;
+}
+
+footer > a {
+    float:right;
+    height: 45px;
+    width: 45px;
+    font-size: 40px;
+    top: -8px;
+    right: 5px;
+    display: inline-block;
+    position: absolute;
+    color: black;
+
+}
+
+footer > a > i{
+float:right;
+}
+
+footer > a:hover {
+
+    color:white;
+ }
+
+ footer> .icons > i:hover{
+    color:white;
+    cursor: pointer
+    }
+
+
+
+::before {
+    float:right;
+}
+
+@media ( max-width: 800px ) {
+    .hero-content  {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        height:100%;
+            }
+
+            .hero-content > p {
+                padding: 10px;
+            }
+        }
+
+
+.scrollDown1 {
+    -webkit-animation: jump 3s ease-in 0s infinite normal ;
+    animation: jump 3s ease-in 0s infinite normal ;
+   }
+
+
+
+@keyframes jump {
+    0%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(-15px);
+    }
+    80%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    }
+
+    .button:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+
+        
+    }
+
+
